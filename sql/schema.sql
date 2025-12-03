@@ -27,7 +27,7 @@ create table order_items
 order_id number(5) ,
 product_id number(10) ,
 quantity number(5),
-unti_price number(5,2),
+unit_price number(5,2),
 line_amount number(5,2),
 constraint fk_order foreign key(order_id) references orders(order_id),
 constraint fk_products foreign key(product_id) references products(product_id)
