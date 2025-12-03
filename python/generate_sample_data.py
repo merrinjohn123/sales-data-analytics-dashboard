@@ -18,7 +18,6 @@ cities_data=[ ("Ney York","NY","USA"),
     ("London", "England", "UK"),
     ("Toronto", "Ontario", "Canada"),
     ("Sydney", "NSW", "Australia")]
-city,state,country = random.choice(cities_data)
 product_lists=[]
 fake = Faker()
 for i in  range(100):
@@ -35,7 +34,8 @@ df.to_csv('products.csv',index=False)
 print("Products csv file is created")
 customer_lists=[]
 for i in range(200):
-    customer={ "customer_id" : i+1 ,
+    city, state, country = random.choice(cities_data)
+    customer={ "customer_id" : f"C{i+1}" ,
                "name" : fake.name(),
                "city" : city,
                "state" : state,
@@ -43,9 +43,9 @@ for i in range(200):
                "signup_date" : get_random_date()
                }
     customer_lists.append(customer)
-df=pd.DataFrame(customer_lists)
-print("Dataframe is",df)
-df.to_csv('customers.csv',index=False)
+dfcust=pd.DataFrame(customer_lists)
+print("Dataframe is",dfcust)
+dfcust.to_csv('customers.csv',index=False)
 print("Customers csv file is created")
 order_list=[]
 custidlist=[f"C{i+1}" for i in range(200)]
@@ -58,9 +58,9 @@ for i in range(2000):
         "order_status" : random.choice(["Pending", "Shipped", "Delivered", "Cancelled"])
     }
     order_list.append(order)
-df=pd.DataFrame(order_list)
-print("Dataframe is ",df)
-df.to_csv('orders_list.csv',index=False)
+dforder=pd.DataFrame(order_list)
+print("Dataframe is ",dforder)
+dforder.to_csv('orders_list.csv',index=False)
 print("Orders list csv is created")
 order_items=[]
 order_item_id = 1
@@ -73,26 +73,15 @@ for orders in order_list :
         line_amount = round(quantity * unit_price, 2)
         item = {
             "order_item_id" : order_item_id,
-            "order_id" : order["order_id"],
+            "order_id" : orders["order_id"],
             "product_id" : pdt,
             "quantity" : quantity,
             "unit_price" : unit_price,
             "line_amount" : line_amount
         }
         order_items.append(item)
-df=pd.DataFrame(order_items)
-print("Dataframe is ",df)
-df.to_csv('orders_item_list.csv',index=False)
+        order_item_id += 1
+dfoitem=pd.DataFrame(order_items)
+print("Dataframe is ",dfoitem)
+dfoitem.to_csv('orders_item_list.csv',index=False)
 print("Orders_items list csv is created")
-
-
-
-
-
-
-
-
-
-
-
-
