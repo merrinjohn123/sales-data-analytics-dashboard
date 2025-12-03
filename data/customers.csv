@@ -1,0 +1,201 @@
+customer_id,name,city,state,country,signup_date
+C1,Sarah Klein,Mumbai,MH,India,2023-03-21
+C2,Catherine Lowery,Toronto,Ontario,Canada,2022-02-17
+C3,Jocelyn Gonzalez,Sydney,NSW,Australia,2022-12-14
+C4,Barbara Terry,Delhi,DL,India,2023-01-24
+C5,Brian Johnson,Delhi,DL,India,2025-07-05
+C6,David Spears,Los Angeles,CA,USA,2022-09-17
+C7,Jay Crosby,London,England,UK,2024-06-24
+C8,Nicholas Stone,Ney York,NY,USA,2024-09-03
+C9,Michael Lopez,London,England,UK,2022-06-23
+C10,Toni Baxter,Chicago,IL,USA,2025-11-06
+C11,Jeremy Lee,Delhi,DL,India,2023-02-21
+C12,Sherri Mann,Chicago,IL,USA,2023-09-04
+C13,Haley Vaughn,Los Angeles,CA,USA,2024-05-09
+C14,Trevor Sanchez,Los Angeles,CA,USA,2023-10-04
+C15,Brandi Powell,Bangalore,KA,India,2025-11-20
+C16,Kristie Steele,Sydney,NSW,Australia,2022-08-08
+C17,Shannon Pennington,Chicago,IL,USA,2022-10-27
+C18,Carol Martinez,Delhi,DL,India,2023-09-21
+C19,Tracy Harrington PhD,Chicago,IL,USA,2023-04-03
+C20,Mary Bowen,Delhi,DL,India,2023-05-28
+C21,Mark Little,London,England,UK,2022-08-10
+C22,Shelby Fischer,Bangalore,KA,India,2023-12-07
+C23,Francis Jackson,Ney York,NY,USA,2024-01-01
+C24,Darren Quinn,Mumbai,MH,India,2023-05-22
+C25,Abigail Lewis,Chicago,IL,USA,2025-01-19
+C26,Jody Evans,Delhi,DL,India,2024-09-08
+C27,Shawn Washington,Sydney,NSW,Australia,2025-03-15
+C28,Dr. Tiffany Watkins,Los Angeles,CA,USA,2023-09-27
+C29,Cory Murillo,Los Angeles,CA,USA,2024-02-26
+C30,Larry Ochoa,Toronto,Ontario,Canada,2023-02-21
+C31,Michele Lowe,Los Angeles,CA,USA,2024-05-25
+C32,Gina Young,Toronto,Ontario,Canada,2025-03-28
+C33,Paul Blackburn,Toronto,Ontario,Canada,2024-05-09
+C34,Sean Carter,Delhi,DL,India,2024-03-02
+C35,Gary Church,Mumbai,MH,India,2024-06-11
+C36,Brendan Bishop,Chicago,IL,USA,2025-01-19
+C37,Megan Doyle,Los Angeles,CA,USA,2022-06-28
+C38,Patrick Ramirez,Ney York,NY,USA,2025-06-13
+C39,Jacob Patterson,Bangalore,KA,India,2024-01-19
+C40,Andrea Miller,Chicago,IL,USA,2022-03-24
+C41,Mrs. Lori Salinas,Sydney,NSW,Australia,2023-06-17
+C42,Nancy Turner,Sydney,NSW,Australia,2025-01-19
+C43,William Butler,London,England,UK,2023-02-11
+C44,Paul Alvarez,London,England,UK,2024-05-17
+C45,Paul Ibarra,London,England,UK,2024-07-23
+C46,Walter Brown,Los Angeles,CA,USA,2024-11-09
+C47,Barbara Evans,Ney York,NY,USA,2022-08-02
+C48,Taylor Gonzales,Ney York,NY,USA,2024-01-22
+C49,Kirsten Wheeler,Bangalore,KA,India,2022-08-23
+C50,Jesse Richardson,Ney York,NY,USA,2025-02-27
+C51,Patricia Bailey,Sydney,NSW,Australia,2022-03-05
+C52,Ashley Solomon,Sydney,NSW,Australia,2023-07-20
+C53,Nicole Moore,Delhi,DL,India,2022-12-05
+C54,Faith Leonard,Delhi,DL,India,2024-11-01
+C55,Bob Green,Delhi,DL,India,2022-06-17
+C56,Marcus Pennington,Delhi,DL,India,2024-12-17
+C57,Chase Tyler,Bangalore,KA,India,2022-02-04
+C58,Luis Wright,Chicago,IL,USA,2025-05-17
+C59,Michelle Delgado,Bangalore,KA,India,2022-01-18
+C60,Lisa Fritz,Toronto,Ontario,Canada,2022-02-14
+C61,Danielle Wright,Mumbai,MH,India,2022-03-19
+C62,John Gonzalez,Bangalore,KA,India,2023-01-27
+C63,Shelly Hernandez,Mumbai,MH,India,2022-07-16
+C64,Melissa Meyers,Chicago,IL,USA,2024-07-08
+C65,Carolyn Richards,Ney York,NY,USA,2023-05-19
+C66,Robert Ellis,Chicago,IL,USA,2022-03-09
+C67,Kent Becker,Delhi,DL,India,2024-07-01
+C68,Robin Mitchell,Mumbai,MH,India,2025-02-11
+C69,Victoria Garcia,Chicago,IL,USA,2023-10-08
+C70,Jonathan Murray,Delhi,DL,India,2023-12-08
+C71,Terry Hernandez,Delhi,DL,India,2025-11-21
+C72,Aaron Stewart,Ney York,NY,USA,2023-05-16
+C73,Erin Wallace,London,England,UK,2024-12-12
+C74,Timothy Carter,Ney York,NY,USA,2022-05-14
+C75,Jason Coleman,Bangalore,KA,India,2024-04-25
+C76,Joshua Craig,Toronto,Ontario,Canada,2023-09-19
+C77,Daniel Taylor,Los Angeles,CA,USA,2025-10-15
+C78,Erin Bennett,Mumbai,MH,India,2022-01-28
+C79,Deborah Lloyd,Delhi,DL,India,2023-03-05
+C80,Bradley Snyder,Sydney,NSW,Australia,2025-06-09
+C81,Robert Williams,Mumbai,MH,India,2022-09-03
+C82,Michelle Moore,Sydney,NSW,Australia,2022-01-05
+C83,Alan Lee,Chicago,IL,USA,2023-12-20
+C84,Paul Figueroa,Bangalore,KA,India,2024-01-23
+C85,Michael Martinez,Mumbai,MH,India,2025-02-19
+C86,Mark Alexander,Sydney,NSW,Australia,2025-11-04
+C87,Jessica Bishop,London,England,UK,2025-02-14
+C88,David Garcia,Mumbai,MH,India,2023-11-19
+C89,Matthew Webb,Los Angeles,CA,USA,2024-01-24
+C90,Charles Ochoa,Sydney,NSW,Australia,2024-06-11
+C91,Brian Alvarez,Los Angeles,CA,USA,2024-01-09
+C92,Bryan Ross,Delhi,DL,India,2025-08-07
+C93,Jason Reynolds,London,England,UK,2023-05-03
+C94,Courtney Alvarez,Sydney,NSW,Australia,2023-08-16
+C95,Sharon Jones,London,England,UK,2022-05-15
+C96,Kevin Davis,Sydney,NSW,Australia,2024-01-27
+C97,Alicia Reed,Sydney,NSW,Australia,2024-09-08
+C98,Johnny Robertson,Chicago,IL,USA,2023-12-08
+C99,Kathryn Jackson,Los Angeles,CA,USA,2023-08-11
+C100,David Black,Mumbai,MH,India,2023-03-03
+C101,Rebecca Myers,Sydney,NSW,Australia,2025-06-14
+C102,John Meyer,London,England,UK,2022-02-06
+C103,Ashley Garcia,Bangalore,KA,India,2025-04-12
+C104,David White,Ney York,NY,USA,2023-08-25
+C105,Austin Cunningham,Chicago,IL,USA,2022-12-03
+C106,Patrick Moyer,Los Angeles,CA,USA,2024-12-11
+C107,Rebekah Suarez,Sydney,NSW,Australia,2024-06-08
+C108,Jennifer Walker,Chicago,IL,USA,2024-07-14
+C109,Elizabeth Bullock,Delhi,DL,India,2022-05-18
+C110,Ellen Barrett,Sydney,NSW,Australia,2022-09-21
+C111,Jesus Holmes,Los Angeles,CA,USA,2023-05-23
+C112,Alexander Armstrong,Chicago,IL,USA,2025-02-05
+C113,Danielle Bartlett,Mumbai,MH,India,2024-01-11
+C114,Rachel Joyce,Bangalore,KA,India,2023-01-09
+C115,Jacob Ballard,Ney York,NY,USA,2024-05-07
+C116,Elizabeth Osborne,Toronto,Ontario,Canada,2023-07-24
+C117,Erin Potter,Bangalore,KA,India,2022-08-01
+C118,Kevin Clark,Sydney,NSW,Australia,2023-04-05
+C119,Elizabeth Reed,Chicago,IL,USA,2022-11-25
+C120,Alexandra Duncan,Sydney,NSW,Australia,2023-12-12
+C121,Penny Douglas,Sydney,NSW,Australia,2025-02-21
+C122,Austin Bowman,Chicago,IL,USA,2024-12-28
+C123,Jenna Romero,London,England,UK,2024-07-10
+C124,Megan Mcintyre,Los Angeles,CA,USA,2025-07-19
+C125,Evan Brown,Chicago,IL,USA,2025-09-15
+C126,Jordan Mcpherson,London,England,UK,2022-01-17
+C127,Alyssa Garcia,Bangalore,KA,India,2022-02-14
+C128,Keith Guerrero,Bangalore,KA,India,2022-02-09
+C129,Nathan Rivera,Ney York,NY,USA,2024-06-27
+C130,Erika Meyer,Ney York,NY,USA,2024-01-15
+C131,Kim Martin,Delhi,DL,India,2022-06-27
+C132,Ethan Roach,Delhi,DL,India,2024-12-19
+C133,Andre Michael,Bangalore,KA,India,2025-11-12
+C134,William Brown,Mumbai,MH,India,2023-04-03
+C135,Edward Campos,Ney York,NY,USA,2024-11-06
+C136,Joseph Ross,Los Angeles,CA,USA,2022-09-24
+C137,Raymond Simpson PhD,Los Angeles,CA,USA,2023-03-18
+C138,Erik James,London,England,UK,2024-03-03
+C139,Yolanda Davis,Mumbai,MH,India,2023-10-28
+C140,John Dawson,Los Angeles,CA,USA,2025-06-20
+C141,Mitchell Skinner,Bangalore,KA,India,2025-10-28
+C142,Patricia Velasquez,Ney York,NY,USA,2022-05-19
+C143,Dr. Courtney Moyer,Chicago,IL,USA,2025-08-15
+C144,Thomas Lopez,Chicago,IL,USA,2025-10-10
+C145,Robert Martin,Ney York,NY,USA,2024-05-05
+C146,Danielle Aguirre,Los Angeles,CA,USA,2024-05-17
+C147,Lauren Martin,Sydney,NSW,Australia,2024-12-07
+C148,Terry Li,Mumbai,MH,India,2023-02-01
+C149,Pamela Mendoza,Chicago,IL,USA,2022-06-03
+C150,Karen Sellers,London,England,UK,2025-04-26
+C151,Wesley Rodgers,Delhi,DL,India,2025-04-12
+C152,Melissa Baker,London,England,UK,2023-12-25
+C153,Johnny Parsons,Bangalore,KA,India,2025-06-21
+C154,Bailey Vasquez,Bangalore,KA,India,2023-12-06
+C155,Hunter Cunningham,Bangalore,KA,India,2023-10-14
+C156,Christian Tate,Sydney,NSW,Australia,2025-08-24
+C157,Kayla Smith,Delhi,DL,India,2024-04-24
+C158,Edward Vasquez,Chicago,IL,USA,2024-07-09
+C159,Teresa Shepherd,Bangalore,KA,India,2025-06-12
+C160,Aaron Robinson,Mumbai,MH,India,2022-11-12
+C161,Paul Mitchell,Ney York,NY,USA,2023-03-23
+C162,Joseph Dixon,Sydney,NSW,Australia,2022-09-20
+C163,Rachel Norman,Toronto,Ontario,Canada,2023-12-09
+C164,Angela Ramirez,Chicago,IL,USA,2022-09-15
+C165,Richard King,Chicago,IL,USA,2022-10-26
+C166,James Prince,London,England,UK,2024-12-16
+C167,David Keller,Ney York,NY,USA,2025-08-03
+C168,Marie Price,Delhi,DL,India,2025-08-19
+C169,Chelsea Mcdonald,Mumbai,MH,India,2024-01-10
+C170,Kenneth Webb MD,London,England,UK,2023-06-21
+C171,Jessica Gordon,Sydney,NSW,Australia,2024-03-02
+C172,Eric Thompson,Bangalore,KA,India,2023-02-04
+C173,Deborah Mercer,Toronto,Ontario,Canada,2024-12-02
+C174,Cynthia Vincent,Sydney,NSW,Australia,2024-09-09
+C175,Cheryl Thomas,Sydney,NSW,Australia,2025-10-27
+C176,Steven Cameron,London,England,UK,2022-11-21
+C177,Beth Thompson,Mumbai,MH,India,2023-04-25
+C178,Erin Lopez,Bangalore,KA,India,2023-09-04
+C179,Jason Campbell,London,England,UK,2023-05-01
+C180,Jessica Carr,London,England,UK,2022-11-23
+C181,Ricardo Peck,Delhi,DL,India,2022-11-25
+C182,Abigail Williams,Bangalore,KA,India,2023-03-03
+C183,Timothy Brown,Toronto,Ontario,Canada,2024-07-25
+C184,Jenna Davis,Los Angeles,CA,USA,2022-07-24
+C185,Cathy Clark,Sydney,NSW,Australia,2024-09-01
+C186,Corey Conner,London,England,UK,2025-08-06
+C187,Kevin Myers,Chicago,IL,USA,2024-04-12
+C188,Steven Fisher,Bangalore,KA,India,2024-11-28
+C189,Tina Carney,Mumbai,MH,India,2025-04-13
+C190,Aaron Shaw,Bangalore,KA,India,2024-05-26
+C191,Charles Harris,Bangalore,KA,India,2025-07-02
+C192,Thomas Villanueva,Mumbai,MH,India,2025-06-17
+C193,Leslie Randall,Delhi,DL,India,2023-01-22
+C194,Kimberly Boyd,Ney York,NY,USA,2025-03-20
+C195,Becky Mcbride,Delhi,DL,India,2023-05-02
+C196,Joseph Berry,Mumbai,MH,India,2025-10-07
+C197,Adam Green,Bangalore,KA,India,2023-11-08
+C198,Cody Rodriguez,Sydney,NSW,Australia,2023-09-24
+C199,Michael Hudson,Bangalore,KA,India,2025-03-18
+C200,Christopher Alexander,Chicago,IL,USA,2025-01-06
