@@ -8,8 +8,8 @@ create table customers
 )
 
 create table products
-( product_id number(10) primary key,
-name varchar2(15),
+( product_id varchar2(5) primary key,
+name varchar2(30),
 category varchar2(15),
 unit_price number(5,2)
 );
@@ -25,7 +25,7 @@ constraint fk_customer foreign key(customer_id) references customers(customer_id
 create table order_items
 ( order_item_id number(5) primary key,
 order_id number(5) ,
-product_id number(10) ,
+product_id varchar2(5) ,
 quantity number(5),
 unit_price number(5,2),
 line_amount number(5,2),
