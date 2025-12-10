@@ -1,5 +1,5 @@
 create table customers
-( customer_id number(5) primary key,
+( customer_id varchar2(5) primary key,
   name varchar2(15),
   city varchar2(15),
   state varchar2(15),
@@ -16,7 +16,7 @@ unit_price number(5,2)
 
 create table orders
 (   order_id number(5) primary key,
-customer_id number(5) ,
+customer_id varchar2(5) ,
 order_date date,
 order_status varchar2(15),
 constraint fk_customer foreign key(customer_id) references customers(customer_id)
