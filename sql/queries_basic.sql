@@ -11,3 +11,11 @@ from ORDER_ITEMS ot
 join products p
 on p.product_id=ot.product_id
 group by p.name;
+
+--total revenue per product category.
+select p.category,sum(ot.line_amount) as tot_revenue
+from ORDER_ITEMS ot
+join products p
+on p.product_id=ot.product_id
+group by p.category
+order by tot_revenue desc ;
