@@ -27,3 +27,13 @@ join orders o
 on ot.order_id=o.ORDER_ID
 where o.order_status not in ('Cancelled')
 group by to_char(o.order_date,'MM-YY');
+
+
+--Revenue + order count + average order value per month.
+Select to_char(o.order_date,'MM-YY') as month,sum(ot.line_amount) as revenue,
+count(distinct o.order_id) as order_count,round(SUM(ot.line_amount) / COUNT(DISTINCT o.order_id),2) as avg_order_value
+from order_items ot
+join orders o
+on ot.order_id=o.ORDER_ID
+where o.order_status not in ('Cancelled')
+group by to_char(o.order_date,'MM-YY');
