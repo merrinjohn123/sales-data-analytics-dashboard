@@ -91,3 +91,9 @@ select o.order_id from orders o
 left JOIN ORDER_ITEMS ot
 on o.order_id=ot.order_id
 where ot.order_item_id is NULL;
+
+--Products that never sold
+select p.product_id from products p
+left JOIN order_items ot
+on ot.product_id=p.product_id
+where ot.order_id is NULL;
