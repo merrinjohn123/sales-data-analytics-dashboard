@@ -37,3 +37,19 @@ join orders o
 on ot.order_id=o.ORDER_ID
 where o.order_status not in ('Cancelled')
 group by to_char(o.order_date,'MM-YY');
+
+
+--Top 10 products by revenue and quantitiy
+with cte as
+(
+select p.name,sum(ot.line_amount) as tot_revenue,sum(ot.quantity) as tot_quantity
+from order_items ot
+join PRODUCTS p
+on p.product_id=ot.PRODUCT_ID
+join orders o
+on ot.order_id=o.ORDER_ID
+where o.order_status not in ('Cancelled')
+group by p.name )
+select * from cte
+order by tot_revenue desc,tot_quantity DESC
+fetch first 10 rows only;
