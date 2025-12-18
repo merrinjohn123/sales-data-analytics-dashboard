@@ -85,3 +85,9 @@ group by c.name )
 select name,tot_revenue,tot_orders 
 from cte
 where rnk <=10;
+
+--Orders having no items
+select o.order_id from orders o
+left JOIN ORDER_ITEMS ot
+on o.order_id=ot.order_id
+where ot.order_item_id is NULL;
