@@ -53,3 +53,20 @@ group by p.name )
 select * from cte
 order by tot_revenue desc,tot_quantity DESC
 fetch first 10 rows only;
+
+--Alternative (row_number window function for ranking)
+with cte as
+(
+select p.name,sum(ot.line_amount) as tot_revenue,
+sum(ot.quantity) as tot_quantity,
+row_number() over (order by sum(ot.quantity) desc,sum(ot.line_amount) desc) as rnk
+from order_items ot
+join orders o
+on ot.order_id=o.order_id
+join products p
+on ot.product_id=p.product_id
+where o.order_status not in ('Cancelled')
+group by p.name)
+select name,tot_revenue,tot_quantity from cte
+where rnk <=10 ;
+
