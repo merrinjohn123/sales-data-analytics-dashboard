@@ -70,3 +70,18 @@ group by p.name)
 select name,tot_revenue,tot_quantity from cte
 where rnk <=10 ;
 
+
+--Top 10 customers with their total revenue and no: of orders
+with cte as
+(select c.name,sum(ot.line_amount) as tot_revenue,
+count(distinct o.order_id) as tot_orders,
+row_number() over (order by sum(ot.line_amount) desc,count(distinct o.order_id) desc) as rnk
+from order_items ot
+join orders o 
+on ot.order_id=o.order_id
+join customers c
+on o.customer_id=c.customer_id
+group by c.name )
+select name,tot_revenue,tot_orders 
+from cte
+where rnk <=10;
