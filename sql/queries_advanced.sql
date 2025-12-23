@@ -47,3 +47,17 @@ select order_month,
 round(avg(total_sales) over(order by order_month rows between 2 preceding and current row),2) as moving_average
 from monthly_sales;
 
+
+--Classifying the customers as New,Active and Lapsed
+SELECT
+  customer_id,
+  MAX(order_date) AS last_order_date,
+  CASE
+    WHEN COUNT(order_id) = 1 THEN 'NEW'
+    WHEN MAX(order_date) >= SYSDATE - 365 THEN 'ACTIVE'
+    WHEN MAX(order_date) <  SYSDATE - 365 THEN 'LAPSED'
+    ELSE 'Unknown'
+  END AS customer_status
+FROM orders
+WHERE order_status NOT IN ('Cancelled')
+GROUP BY customer_id;
