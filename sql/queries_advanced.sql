@@ -48,7 +48,7 @@ round(avg(total_sales) over(order by order_month rows between 2 preceding and cu
 from monthly_sales;
 
 
---Classifying the customers as New,Active and Lapsed
+--Classifying the customers as New,Active and Lapsed based on last order date
 SELECT
   customer_id,
   MAX(order_date) AS last_order_date,
@@ -61,3 +61,27 @@ SELECT
 FROM orders
 WHERE order_status NOT IN ('Cancelled')
 GROUP BY customer_id;
+
+--Customer status based on each order date
+with order_info
+as
+(select customer_id, order_date,
+row_number() over(partition by customer_id order by order_date) as ord_seq,
+lag(order_date) over(partition by customer_id order by order_date) as prev_order_date
+from ORDERS
+where order_status not in ('Cancelled')
+),
+days_between_order as
+(select customer_id,order_date,
+ord_seq,
+order_date - prev_order_date as num_days
+from order_info )
+select customer_id,order_date,
+CASE WHEN ord_seq=1 THEN 'NEW'
+      WHEN num_days <= 365 THEN 'ACTVE'
+      WHEN num_days > 365 THEN 'LAPSED'
+      ELSE 'UNKNOWN'
+END as customer_status
+from days_between_order
+;
+
