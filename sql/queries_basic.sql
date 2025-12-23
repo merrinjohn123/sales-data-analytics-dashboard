@@ -97,3 +97,10 @@ select p.product_id from products p
 left JOIN order_items ot
 on ot.product_id=p.product_id
 where ot.order_id is NULL;
+
+--Repeated customers
+select customer_id,count(order_id)
+from ORDERS
+where order_status not in ('Cancelled')
+group by customer_id
+having count(order_id) > 1;
