@@ -31,3 +31,19 @@ where o.order_status not in ('Cancelled')
 group by p.name)
 select name,revenue from product_revenue
 where revenue > (select avg(revenue) from product_revenue) ;
+
+--3 month moving average
+with monthly_sales as
+(
+select trunc(o.order_date,'MM') as order_month,
+sum(ot.line_amount) as total_sales
+from orders o
+join order_items ot
+on o.order_id=ot.order_id
+where o.order_status not in ('Cancelled')
+group by trunc(o.order_date,'MM')
+)
+select order_month, 
+round(avg(total_sales) over(order by order_month rows between 2 preceding and current row),2) as moving_average
+from monthly_sales;
+
